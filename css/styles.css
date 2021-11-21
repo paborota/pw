@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "News Cycle", serif;
+    color: #222831;
+}
+
+hr {
+    background-color: #EEEEEE;
+    border-color: #DDDDDD;
+    border-style: dotted;
+    border-top-width: 8px;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    margin: 100px auto;
+    width: 5%;
+}
+
+h2 {
+    font-family: "Roboto Mono", monospace;
+    color: #00ADB5;
+    font-size: 2em;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: "Roboto Mono", sans-serif;
+    color: #00ADB5;
+}
+
+a {
+    color: #00ADB5;
+    margin: auto 1em auto 1em;
+    text-decoration: none;
+}
+
+.flavor-text {
+    color: #CCCCCC;
+    letter-spacing: .2em;
+}
+
+.cloud {
+    position: absolute;
+}
+
+.top-cloud {
+    top: 50px;
+    right: 20%;
+}
+
+.bottom-cloud {
+    left: 20%;
+}
+
+.animation-img {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.coding-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+}
+
+.top-container {
+    background-color: #EEEEEE;
+    position: relative;
+    padding-top: 100px;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.middle-container {
+    background-color: #EEEEEE;
+}
+
+.profile {
+    margin: 0 auto 0 auto;
+    padding-top: 8em;
+}
+
+.profile-desc {
+    margin: 0 auto 0 auto;
+    width: 30%;
+}
+
+.contact-me {
+    padding-bottom: 7em;
+}
+
+.bottom-container {
+    background-color: #393E46;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.pro-intro {
+    font-size: 1.2rem;
+}
+
+.contact-desc {
+    margin: 20px auto 50px;
+    width: 25%;
+}
+
+.footer-link {
+    line-height: .9em;
+}
+
+.copyright-text {
+    color: #EEEEEE;
+    margin-bottom: 0;
+    font-size: .7em;
+    letter-spacing: .25em;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #EEEEEE;
+    font-size: 20px;
+    background: #00ADB5;
+    padding: 5px 20px 5px 20px;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    text-decoration: none;
+}
+
+.btn:hover {
+  background: #73d5e6;
+  text-decoration: none;
+}
+
+#name-intro {
+    color: #00ADB5;
+    margin: 30px auto 0 auto;
+    font-family: "Caveat", cursive;
+    font-size: 5.625em;
+}

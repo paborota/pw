@@ -1,58 +1,60 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Paul's Personal Site</title>
-    </head>
+<html lang="en">
 
-    <body>
-        <table cellspacing="20">
-            <td><img src="images/paul.png" alt="paul profile picture"></td>
-            <td><h1>Paul Borota</h1>
-                <p><em>Developing Developer.</em></p>
-            <p>Bit of a dummy website to learn more about web development.</p></td>
-        </table>
-        <hr>
-        <h3>My Links</h3>
-        <ul>
-            <li><a href="https://github.com/paborota">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/feed/">LinkedIn</a></li>
-        </ul>
-        <hr>
-        <h3>Work Experience</h3>
-        <p></p>
-        <table cellspacing="10">
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1994-Now</td>
-                    <td>Literally nothing please hire me</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
-        <table cellspacing="10">
-            <tbody>
-                <tr>
-                    <td>C++</td>
-                    <td>⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Python</td>
-                    <td>⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Web Development</td>
-                    <td>⭐</td>
-                </tr>
-            </tbody>
-        </table>
-        <p><a href="hobbies.html">My Hobbies</a></p>
-        <p><a href="contact-me.html">How to contact me</a></p>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Paul Borota</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=News+Cycle&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container top-container">
+        <img class="cloud top-cloud" src="images/cloud.png">
+        <h1 id="name-intro">I'm Paul.</h1>
+        <h2 class="pro-intro">a programmer.</h2>
+        <img class="cloud bottom-cloud" src="images/cloud.png">
+        <img src="images/mountain.png">
+    </div>
+    <div class="middle-container">
+  <div class="profile">
+    <img src="images/paul.png" alt="">
+      <h2><span class="flavor-text">cout << "</span>Hello (World)<span class="flavor-text">" << endl;</span></h2>
+    <p class="profile-desc">I am a recent college graduate from Dakota State University, to which I earned my Bachelor's in Computer Science. I love playing video games, with some side passions in 3D animation and creating my own games.</p>
+  </div>
+  <hr>
+  <div class="middle-container skills">
+    <h2><span class="flavor-text">paul.</span>skills<span class="flavor-text">;</span></h2>
+    <div class="skill-row">
+      <img class="coding-img" src="images/programming.png" alt="">
+        <h3><span class="flavor-text">skill-></span>coding<span class="flavor-text">();</span></h3>
+      <p class="code-skill-description">Up until college, I had never written a single line of code. After my first class I started to really enjoy it, and am planning on making a career out of it. Somewhat biased towards C++.</p>
+    </div>
+    <div class="skill-row">
+      <img class="animation-img" src="images/animation.png" alt="">
+        <h3><span class="flavor-text">skill-></span>animation<span class="flavor-text">();</span></h3>
+      <p class="animation-skill-description">I've always enjoyed watching animated movies, so much that at some point I started learning to animate. I feel like I have gotten moderately OK at it, if I do say so myself, for being self-taught. </p>
+    </div>
+  </div>
+  <hr>
+  <div class="middle-container contact-me">
+    <h2>Get In Touch</h2>
+    <h3>Want to contact me for any reason?</h3>
+    <p class="contact-desc">I usually respond to emails within 24 hours, usually. (Currently not working, on purpose.)</p>
+    <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+  </div>
+</div>
+
+
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/in/paul-borota-">LinkedIn</a>
+  <a class="footer-link" href="https://github.com/paborota">GitHub</a>
+  <p class="copyright-text">© 2021 Paul Borota</p>
+</div>
+
+</body>
+
 </html>
